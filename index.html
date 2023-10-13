@@ -545,7 +545,59 @@
       </div>
     </footer>
     <div class="backdrop">
-      <div class="modal"></div>
+      <div class="modal">
+        <button type="button" class="modal-btn">
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="backdrop-user-info">
+            <label class="user-info-name" for="name">Name</label>
+            <div class="info-name-input">
+              <input type="text" class="name-input-in" id="name" name="name" />
+            </div>
+          </div>
+          <div class="backdrop-user-info">
+            <label class="user-info-phone" for="phone">Phone</label>
+            <div class="info-phone-input">
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="phone-input-in"
+              />
+            </div>
+          </div>
+          <div class="backdrop-user-info">
+            <label class="user-info-mail" for="mail">Email</label>
+            <div class="info-mail-input">
+              <input class="mail-input-in" type="email" id="mail" name="mail" />
+            </div>
+          </div>
+          <div class="backdrop-user-comment">
+            <label class="user-comment-label" for="comment"> Comment </label>
+            <input
+              type="text"
+              class="user-comment-in"
+              id="comment"
+              name="comment"
+            />
+          </div>
+          <div class="backdrop-user-check">
+            <input
+              type="checkbox"
+              class="user-check-in"
+              name="privacycheck"
+              id="privacycheck"
+            />
+            <label class="user-check-privacy" for="privacycheck">
+              I accept the terms and conditions of the Privacy Policy
+            </label>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
