@@ -71,5 +71,8 @@
 <symbol id="icon-checkbox" viewBox="0 0 20 20">
 <path d="M0 11l2-2 5 5 11-11 2 2-13 13z"></path>
 </symbol>
+<symbol id="icon-send" viewBox="0 0 32 32">
+<path d="M32 2.667l-32 15 10.227 3.156 15.773-12.323-11.998 13.488 0.010 0.003-0.012-0.003v7.345l5.735-5.576 7.265 2.242 5-23.333z"></path>
+</symbol>
 </defs>
 </svg>

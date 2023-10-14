@@ -421,15 +421,59 @@ img {
   margin-top: 16px;
 }
 
+.footer-subs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
 .footer-social-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #ffffff;
   margin-bottom: 16px;
-  color: #fff;
+  margin-left: 0;
 }
-
+.footer-subs-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subs-input {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  width: 264px;
+  height: 40px;
+  color: #fff;
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.footer-btn-subs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: #fff;
+  padding: 8px 24px;
+  background-color: #4d5ae5;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 165px;
+}
+.footer-btn-sub-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
 /* Modal popup */
 .backdrop {
   position: fixed;
@@ -626,7 +670,9 @@ img {
   margin: 0 auto;
 }
 .backdrop-submit:hover,
-.backdrop-submit:focus {
+.backdrop-submit:focus,
+.footer-btn-subs:hover,
+.footer-btn-subs:focus {
   background-color: #404bbf;
 }
 .user-check-in:checked + .user-check-privacy > .check-privacy-span {
