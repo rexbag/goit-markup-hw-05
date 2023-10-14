@@ -554,22 +554,27 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="backdrop-user-info">
-            <label class="user-info-name" for="name">Name</label>
-            <div class="info-name-input">
-              <input type="text" class="name-input-in" id="name" name="name" />
+            <label class="user-info-label" for="name">Name</label>
+            <div class="userdiv-info-input">
+              <input
+                type="text"
+                class="userinfo-input-in"
+                id="name"
+                name="name"
+              />
               <svg class="input-in-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </div>
           </div>
           <div class="backdrop-user-info">
-            <label class="user-info-phone" for="phone">Phone</label>
-            <div class="info-phone-input">
+            <label class="user-info-label" for="phone">Phone</label>
+            <div class="userdiv-info-input">
               <input
                 type="tel"
                 name="phone"
                 id="phone"
-                class="phone-input-in"
+                class="userinfo-input-in"
               />
               <svg class="input-in-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -577,16 +582,21 @@
             </div>
           </div>
           <div class="backdrop-user-info">
-            <label class="user-info-mail" for="mail">Email</label>
-            <div class="info-mail-input">
-              <input class="mail-input-in" type="email" id="mail" name="mail" />
+            <label class="user-info-label" for="mail">Email</label>
+            <div class="userdiv-info-input">
+              <input
+                class="userinfo-input-in"
+                type="email"
+                id="mail"
+                name="mail"
+              />
               <svg class="input-in-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </div>
           </div>
           <div class="backdrop-user-comment">
-            <label class="user-comment-label" for="comment"> Comment </label>
+            <label class="user-info-label" for="comment"> Comment </label>
             <input
               type="text"
               class="user-comment-in"
@@ -601,7 +611,7 @@
               name="privacycheck"
               id="privacycheck"
             />
-            <svg class="input-in-icon" width="18" height="24">
+            <svg class="input-checkin" width="18" height="24">
               <use href="./images/icons.svg#"></use>
             </svg>
             <label class="user-check-privacy" for="privacycheck">
